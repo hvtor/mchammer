@@ -1,86 +1,119 @@
+.gamePad{
+		
+		margin: 100px auto auto 50px;
 
+		text-align: center;
+		vertical-align: center;
+		font-size: 50px;
+		
+		width: 150px;
+		height: 150px;
+		border-radius: 50px;
+		
+		background-image: -webkit-gradient(radial, 50% 50%,0,50% 50%,200, from(rgb(163, 32, 39)),to(rgb(200, 42, 49)));
+
+}
 
 	.east{
 		
-		margin-top: 400px auto;
-		margin-right: 5px;
+		margin: -57px auto auto 94px;
 
-		border: 3px solid black;
+		text-align: center;
+		vertical-align: center;
+		font-size: 50px;
+	
 		width: 64px;
 		height: 64px;
-		border-radius: 10px;
-		background-color: red;
-		color:black;
+		border-radius: 10px;		
+
+		color:gray;
 	}
 
 
 	.west{
 
+		margin: -23px auto auto -7px;
+
+		text-align: center;
+		vertical-align: center;
+		font-size: 50px;
+		-webkit-transform:rotate(180deg);	
 		
-		margin-top: 400px auto;
-		margin-left: 5px;
-	
-		border: 3px solid black;
 		width: 64px;
-		height: 64px;
-		border-radius: 10px;
-		background-color: red;
-		color:black;
+		height: 64px;	
+
+		color:gray;
 	}
 
 	.south{
-		
-		margin-bottom: 5px;
-		margin-right: 128px auto;
 
-		border: 3px solid black;
+		margin: -21px auto auto 41px;
+
+		text-align: center;
+		vertical-align: center;
+		font-size: 50px;
+		-webkit-transform:rotate(90deg);
+		
 		width: 64px;
 		height: 64px;
-		border-radius: 10px;
-		background-color: red;
-		color:black;
+
+		color:gray;	
 	
 	}
 
 	.north{
 		
-		margin-top: 384px;
-		margin-right: 64px;
 
-		border: 3px solid black;
+		margin: -14px auto auto 49px;
+
+		text-align: center;
+		vertical-align: center;
+		font-size: 50px;
+		-webkit-transform:rotate(-90deg);
+		
 		width: 64px;
 		height: 64px;
-		border-radius: 10px;
-		background-color: red;
-		color:black;
+		
+		color:gray;
 	
 	}
 
 
 	.strafeLeft{
+
+
 		margin: 5px auto auto 5px;
-		
-		border: 3px solid black;
+
+		text-align: center;
+		vertical-align: center;
+		font-size: 50px;
+		-webkit-transform:rotate(180deg);
+
 		width: 64px;
 		height: 64px;
-		border-radius: 10px;
-		background-color: red;
-		color:black;
+
+		color:gray;
 
 	}
 
 	.strafeRight{
-		margin: 5px 5px auto auto;
 
-		border: 3px solid black;
+		position: relative;
+		
+		text-align: center;
+		vertical-align: center;
+		font-size: 50px;
+
 		width: 64px;
 		height: 64px;
-		border-radius: 10px;
-		background-color: red;
-		color:black;
+		
+		color:gray;
+
 	}
 
 
-background{
-	color: yellow;
-}
+body{
+		color: gray;
+		background-image: -webkit-gradient(radial, 50% 50%,0,50% 50%,200, from(rgb(76, 75, 80)),to(rgb(0, 0, 0)));
+;
+	}
