@@ -13,3 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+
+$(function() {
+
+$(window).on("onorientationchange", function(event){
+	
+	var a = Math.round(event.alpha*1/1);
+	var b = Math.round(event.beta*1/1);
+	var g = Math.round(event.gamma*1/1);
+	console.log(a);
+})
+});
